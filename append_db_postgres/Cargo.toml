@@ -13,7 +13,7 @@ authors = ["Anton Gushcha <ncrashed@proton.me>", "Levon Oganyan <lemarwin42@gmai
 append_db = { path = "../append_db", version = "0.3.0" }
 append_db_postgres_derive = { path = "../append_db_postgres_derive", version = "0.3.0" }
 async-trait = "0.1.56"
-chrono = { version = "0.4.19", features = [ "serde" ] }
+chrono = { version = "^0.4.31", features = [ "serde" ] }
 futures = "0.3.19"
 log = "0.4.14"
 serde = { version = "1.0", features = ["derive"] }
